@@ -1,6 +1,6 @@
 #!/bin/sh
 
-TITLE=$1
+TITLE="$1"
 DATE=$(date "+%Y-%m-%d %H:%M:%S")
 DIR=$(pwd)/_posts
 FILENAME=$(TZ='Asia/Seoul' date '+%Y-%m-%d')-$TITLE.md

@@ -1,8 +1,8 @@
 ---
 title: ServiceAccount vs User
 data: 2025-02-13 12:24:06
-categories: [kubernetes, authenticating]
-tags: [kubernetes, k8s, serviceAccount, user, auth]     # TAG names should always be lowercase
+categories: [kubernetes, basic]
+tags: [kubernetes, k8s, serviceAccount, user]     # TAG names should always be lowercase
 ---
 ## ServiceAccount와 User
 
