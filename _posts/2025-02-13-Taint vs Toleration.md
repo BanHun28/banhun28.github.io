@@ -3,6 +3,7 @@ title: Taint vs Toleration
 data: 2025-02-13 12:43:09
 categories: [kubernetes, basic]
 tags: [kubernetes, k8s, taint, toleration]     # TAG names should always be lowercase
+image: assets/img/logos/kubernetes-logo.png
 ---
 
 ##  Taint와 Toleration
