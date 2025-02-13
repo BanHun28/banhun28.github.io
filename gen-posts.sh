@@ -5,8 +5,6 @@ DATE=$(date "+%Y-%m-%d %H:%M:%S")
 DIR=$(pwd)/_posts
 FILENAME=$(TZ='Asia/Seoul' date '+%Y-%m-%d')-$TITLE.md
 
-touch $DIR/$FILENAME
-
 cat <<EOF >$DIR/$FILENAME
 ---
 title: $TITLE
