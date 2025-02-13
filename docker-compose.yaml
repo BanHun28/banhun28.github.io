@@ -1,0 +1,14 @@
+services:
+  jekyll:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    ports:
+      - "4000:4000"
+    working_dir: /app
+    command: |
+      sh
+      -c
+      /app/entrypoint.sh
