@@ -37,6 +37,9 @@ IT 종사자 입니다.
 
 #### Project
 - [Platform](https://ops.iteasy.co.kr/)
+~~~
+❗️사내 ip로만 접속이 가능합니다.
+~~~
 - [Tech Blog](https://iteasytech.com/2024/11/12/%ea%b3%a0%ea%b0%9d-%eb%a7%9e%ec%b6%a4%ed%98%95-db-%eb%b0%b1%ec%97%85-%eb%b0%8f-%eb%b3%b5%ec%9b%90-%ec%86%94%eb%a3%a8%ec%85%98-%ea%b0%9c%eb%b0%9c-%ec%82%ac%eb%a1%80/)
 
 ### Freelance 
