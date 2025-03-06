@@ -1,6 +1,6 @@
 ---
 title: Apachectl graceful vs httpd -k graceful
-date: 2025-02-13 14:26:23 +900
+date: 2025-02-13 14:26:23 +0900
 categories: [linux, apache]
 tags: [linux, apache, httpd, graceful, shell script]     # TAG names should always be lowercase
 ---

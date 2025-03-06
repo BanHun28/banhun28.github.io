@@ -1,6 +1,6 @@
 ---
 title: VPN(Virtual Private Network)이란? 쉽게 이해하기
-date: 2025-03-06 06:32:03 +900
+date: 2025-03-06 06:32:03 +0900
 categories: [network, vpn]
 tags: [network, vpn]     # TAG names should always be lowercase
 ---

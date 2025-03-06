@@ -1,6 +1,6 @@
 ---
 title: ServiceAccount vs User
-date: 2025-02-13 12:24:06 +900
+date: 2025-02-13 12:24:06 +0900
 categories: [kubernetes, basic]
 tags: [kubernetes, k8s, serviceAccount, user]     # TAG names should always be lowercase
 image: assets/img/logos/kubernetes-logo.png
