@@ -8,7 +8,7 @@ FILENAME=$(TZ='Asia/Seoul' date '+%Y-%m-%d')-$TITLE.md
 cat <<EOF >$DIR/$FILENAME
 ---
 title: $TITLE
-date: $DATE
+date: $DATE +900
 categories: [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [TAG]     # TAG names should always be lowercase
 ---

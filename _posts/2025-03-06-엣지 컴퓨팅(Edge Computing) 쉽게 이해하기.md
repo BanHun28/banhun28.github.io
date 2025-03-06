@@ -1,6 +1,6 @@
 ---
 title: 엣지 컴퓨팅(Edge Computing) 쉽게 이해하기
-date: 2025-03-06 06:08:04
+date: 2025-03-06 06:08:04 +900
 categories: [cloud, Edge Computing]
 tags: [cloud, Edge Computing, ]     # TAG names should always be lowercase
 ---
