@@ -891,7 +891,7 @@ hyperparameter_experiment()
 
 ---
 
-**이전 편**: [5편: GPT 모델 전체 구조 - 퍼즐의 완성](링크)   
-**다음 편**: [7편: 텍스트 생성의 예술 - 창작하는 AI](링크)  
-**시리즈 전체**: [GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈](링크)
+**이전 편**: [5편: GPT 모델 전체 구조 - 퍼즐의 완성](https://github.com/BanHun28/gpt2_study)   
+**다음 편**: [7편: 텍스트 생성의 예술 - 창작하는 AI](https://github.com/BanHun28/gpt2_study)  
+**시리즈 전체**: [GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈](https://github.com/BanHun28/gpt2_study)
 

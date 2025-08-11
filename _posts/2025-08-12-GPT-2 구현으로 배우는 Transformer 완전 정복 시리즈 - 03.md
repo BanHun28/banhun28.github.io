@@ -635,6 +635,6 @@ Attention의 마법을 이해했으니, 이제 완전한 Transformer Block으로
 
 ---
 
-**이전 편**: [2편: 데이터가 어떻게 "단어"가 되는가? - 토큰화의 비밀](링크)
-**다음 편**: [4편: Transformer Block 해부학 - 지능의 구조](링크)
-**시리즈 전체**: [GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈](링크)
+**이전 편**: [2편: 데이터가 어떻게 "단어"가 되는가? - 토큰화의 비밀](https://github.com/BanHun28/gpt2_study)
+**다음 편**: [4편: Transformer Block 해부학 - 지능의 구조](https://github.com/BanHun28/gpt2_study)
+**시리즈 전체**: [GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈](https://github.com/BanHun28/gpt2_study)

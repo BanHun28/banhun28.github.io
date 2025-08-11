@@ -362,7 +362,7 @@ your_new_superpowers = [
 
 ---
 
-**시리즈 전체**: [GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈](링크)
+**시리즈 전체**: [GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈](https://github.com/BanHun28/gpt2_study)
 
 **레포지토리**: [BanHun28/gpt2_study](https://github.com/BanHun28/gpt2_study)
 

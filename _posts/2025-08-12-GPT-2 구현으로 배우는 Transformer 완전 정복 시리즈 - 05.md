@@ -885,7 +885,7 @@ analyze_model_behavior()
 
 ---
 
-**이전 편**: [4편: Transformer Block 해부학 - 지능의 구조](링크)  
-**다음 편**: [6편: 학습의 과학 - 모델이 "배우는" 과정](링크)  
-**시리즈 전체**: [GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈](링크)  
+**이전 편**: [4편: Transformer Block 해부학 - 지능의 구조](https://github.com/BanHun28/gpt2_study)  
+**다음 편**: [6편: 학습의 과학 - 모델이 "배우는" 과정](https://github.com/BanHun28/gpt2_study)  
+**시리즈 전체**: [GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈](https://github.com/BanHun28/gpt2_study)  
 

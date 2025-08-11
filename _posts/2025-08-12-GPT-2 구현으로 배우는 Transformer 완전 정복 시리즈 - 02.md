@@ -582,7 +582,7 @@ def compare_with_without_position():
 
 ---
 
-**이전 편**: [1편: GPT란 무엇인가? - 혁신의 시작점 이해하기](링크)  
-**다음 편**: [3편: Attention의 마법 - 컴퓨터가 "문맥"을 이해하는 방법](링크)  
-**시리즈 전체**: [GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈](링크)  
+**이전 편**: [1편: GPT란 무엇인가? - 혁신의 시작점 이해하기](https://github.com/BanHun28/gpt2_study)  
+**다음 편**: [3편: Attention의 마법 - 컴퓨터가 "문맥"을 이해하는 방법](https://github.com/BanHun28/gpt2_study)  
+**시리즈 전체**: [GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈](https://github.com/BanHun28/gpt2_study)  
 
