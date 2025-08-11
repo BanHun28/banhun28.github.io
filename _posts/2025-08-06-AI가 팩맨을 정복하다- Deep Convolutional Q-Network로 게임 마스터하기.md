@@ -1,8 +1,8 @@
 ---
 title: AI가 팩맨을 정복하다- Deep Convolutional Q-Network로 게임 마스터하기
 date: 2025-08-06 10:55:29 +0900
-categories: [ai, deep learning]
-tags: [ai, deep learning, DCQN]     # TAG names should always be lowercase
+categories: [machine learning, deep learning]
+tags: [machine learning, deep learning, DCQN]     # TAG names should always be lowercase
 ---
 
 # 🎮 AI가 팩맨을 정복하다: Deep Convolutional Q-Network로 게임 마스터하기
