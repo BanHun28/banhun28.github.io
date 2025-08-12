@@ -1,8 +1,8 @@
 ---
 title: Taint vs Toleration
 date: 2025-02-13 12:43:09 +0900
-categories: [kubernetes, basic]
-tags: [kubernetes, k8s, taint, toleration]     # TAG names should always be lowercase
+categories: [devops, containers]
+tags: [kubernetes, k8s, taint, toleration, scheduling, nodes, pods, devops, containers, orchestration]     # TAG names should always be lowercase
 image: assets/img/logos/kubernetes-logo.png
 ---
 

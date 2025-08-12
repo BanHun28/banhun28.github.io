@@ -1,8 +1,8 @@
 ---
 title: GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈 - 06
 date: 2025-08-12 08:10:25 +0900
-categories: [machine learning, GPT]
-tags: [machine learning, gpt, transformer, training, cross entropy loss, backpropagation, adamw, learning rate scheduling, gradient clipping, pytorch, optimization]
+categories: [artificial intelligence, machine learning]
+tags: [machine learning, gpt, transformer, training, cross, entropy, loss, backpropagation, adamw, learning, rate, scheduling, gradient]
 ---
 
 # GPT 완전 정복 6편: 학습의 과학 - 모델이 "배우는" 과정

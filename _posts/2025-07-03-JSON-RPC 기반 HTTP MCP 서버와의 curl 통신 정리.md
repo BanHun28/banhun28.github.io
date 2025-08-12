@@ -1,8 +1,8 @@
 ---
 title: JSON-RPC 기반 HTTP MCP 서버와의 curl 통신 정리
 date: 2025-07-03 12:38:22 +0900
-categories: [mcp, json-rpc]
-tags: [json-rpc, http, mcp, curl]     # TAG names should always be lowercase
+categories: [development, programming]
+tags: [api, protocols, json, rpc, http, mcp, curl, web, development, rest, gaming, networking, communication]
 ---
 
 

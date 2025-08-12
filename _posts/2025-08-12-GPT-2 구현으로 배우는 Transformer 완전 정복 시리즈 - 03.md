@@ -1,8 +1,8 @@
 ---
 title: GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈 - 03
 date: 2025-08-12 08:10:20 +0900
-categories: [machine learning, GPT]
-tags: [machine learning, GPT, Transformer]      # TAG names should always be lowercase
+categories: [artificial intelligence, machine learning]
+tags: [machine learning, deep learning, gpt, transformer, attention, nlp, pytorch, neural, networks, context, ai]      # TAG names should always be lowercase
 ---
 
 # GPT 완전 정복 3편: Attention의 마법 - 컴퓨터가 "문맥"을 이해하는 방법

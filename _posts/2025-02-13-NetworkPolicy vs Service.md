@@ -1,8 +1,8 @@
 ---
 title: NetworkPolicy vs Service
 date: 2025-02-13 12:50:42 +0900
-categories: [kubernetes, basic]
-tags: [kubernetes, k8s, network, network policy, service, policy]     # TAG names should always be lowercase
+categories: [devops, containers]
+tags: [kubernetes, k8s, network, networkpolicy, service, policy, devops, containers, security, networking]     # TAG names should always be lowercase
 image: assets/img/logos/kubernetes-logo.png
 ---
 

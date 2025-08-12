@@ -1,8 +1,8 @@
 ---
 title: MISP 기반 eBPF/XDP 고속 방화벽 설계 및 구현
 date: 2025-03-13 16:23:06 +0900
-categories: [eBPF, MISP]
-tags: [MISP, eBPF, XDP]     # TAG names should always be lowercase
+categories: [networking, cybersecurity]
+tags: [misp, ebpf, xdp, cybersecurity, firewall, network, security, threat, intelligence, osint, linux, kernel, performance, defense]
 ---
 
 # **MISP 기반 eBPF/XDP 고속 방화벽 설계 및 구현**

@@ -1,8 +1,8 @@
 ---
 title: VPN(Virtual Private Network)이란? 쉽게 이해하기
 date: 2025-03-06 06:32:03 +0900
-categories: [network, vpn]
-tags: [network, vpn]     # TAG names should always be lowercase
+categories: [networking, cybersecurity]
+tags: [network, vpn, cybersecurity, security, privacy, tunnel, encryption, networking, infrastructure, beginner]     # TAG names should always be lowercase
 ---
 
 # VPN(Virtual Private Network)이란? 쉽게 이해하기

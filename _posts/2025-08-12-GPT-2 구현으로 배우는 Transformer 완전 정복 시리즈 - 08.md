@@ -1,8 +1,8 @@
 ---
 title: GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈 - 08
 date: 2025-08-12 08:10:29 +0900
-categories: [machine learning, GPT]
-tags: [machine learning, gpt, transformer, implementation, memory optimization, mixed precision training, gradient accumulation, debugging, performance monitoring, pytorch, engineering]
+categories: [artificial intelligence, machine learning]
+tags: [machine learning, gpt, transformer, implementation, memory, optimization, mixed, precision, training, gradient, accumulation, debugging, performance]
 ---
 
 # GPT 완전 정복 8편: 실전 구현 분석 - 코드 한 줄씩 완전 분해

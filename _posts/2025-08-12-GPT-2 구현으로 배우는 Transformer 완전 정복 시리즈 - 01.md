@@ -1,8 +1,8 @@
 ---
 title: GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈 - 01
 date: 2025-08-12 08:10:17 +0900
-categories: [machine learning, GPT]
-tags: [machine learning, GPT, Transformer]      # TAG names should always be lowercase
+categories: [artificial intelligence, machine learning]
+tags: [machine learning, deep learning, gpt, transformer, nlp, pytorch, neural, networks, architecture, attention, ai]      # TAG names should always be lowercase
 ---
 
 # GPT 완전 정복 1편: GPT란 무엇인가? - 혁신의 시작점 이해하기

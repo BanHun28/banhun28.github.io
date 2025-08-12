@@ -1,8 +1,8 @@
 ---
 title: A3C 강화학습으로 Kung Fu Master 정복하기
 date: 2025-08-07 11:02:08 +0900
-categories: [machine learning, reinforcement learning]
-tags: [machine learning, deep learning, a3c, reinforcement learning, asynchronous advantage actor critic, atari, kung fu master, apple silicon, mps, pytorch, actor critic, policy gradient]
+categories: [artificial intelligence, machine learning]
+tags: [machine learning, deep learning, a3c, reinforcement, learning, asynchronous, actor, critic, atari, apple, silicon, mps, pytorch]
 ---
 
 # A3C 강화학습으로 Kung Fu Master 정복하기: Apple Silicon 최적화 완벽 가이드

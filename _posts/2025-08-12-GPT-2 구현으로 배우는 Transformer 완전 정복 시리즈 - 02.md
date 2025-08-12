@@ -1,8 +1,8 @@
 ---
 title: GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈 - 02
 date: 2025-08-12 08:10:18 +0900
-categories: [machine learning, GPT]
-tags: [machine learning, gpt, transformer, tokenization, bpe, embedding, natural language processing, deep learning, pytorch, tiktoken, subword]
+categories: [artificial intelligence, machine learning]
+tags: [machine learning, gpt, transformer, tokenization, bpe, embedding, nlp, deep, learning, pytorch, tiktoken, subword]
 ---
 
 # GPT 완전 정복 2편: 데이터가 어떻게 "단어"가 되는가? - 토큰화의 비밀

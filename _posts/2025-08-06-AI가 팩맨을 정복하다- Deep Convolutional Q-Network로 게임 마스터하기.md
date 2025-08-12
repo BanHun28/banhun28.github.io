@@ -1,8 +1,8 @@
 ---
 title: AI가 팩맨을 정복하다- Deep Convolutional Q-Network로 게임 마스터하기
 date: 2025-08-06 10:55:29 +0900
-categories: [machine learning, reinforcement learning]
-tags: [machine learning, deep learning, dcqn, dqn, reinforcement learning, convolutional neural networks, pacman, atari, deepmind, pytorch, computer vision, game ai]
+categories: [artificial intelligence, machine learning]
+tags: [machine learning, deep learning, dcqn, dqn, reinforcement, learning, convolutional, neural, networks, pacman, atari, gaming, ai]
 ---
 
 # 🎮 AI가 팩맨을 정복하다: Deep Convolutional Q-Network로 게임 마스터하기
