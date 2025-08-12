@@ -2,7 +2,7 @@
 title: GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈 - 05
 date: 2025-08-12 08:10:24 +0900
 categories: [machine learning, GPT]
-tags: [machine learning, GPT, Transformer]       # TAG names should always be lowercase
+tags: [machine learning, gpt, transformer, model architecture, weight sharing, language model head, position embedding, pytorch, deep learning, natural language processing]
 ---
 
 # GPT 완전 정복 5편: GPT 모델 전체 구조 - 퍼즐의 완성
