@@ -1,8 +1,8 @@
 ---
 title: GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈 - 04
 date: 2025-08-12 08:10:22 +0900
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
-tags: [TAG]     # TAG names should always be lowercase
+categories: [machine learning, GPT]
+tags: [machine learning, gpt, transformer, layer normalization, residual connection, mlp, feed forward, attention, deep learning, pytorch, neural networks, gelu]
 ---
 
 # GPT 완전 정복 4편: Transformer Block 해부학 - 지능의 구조
