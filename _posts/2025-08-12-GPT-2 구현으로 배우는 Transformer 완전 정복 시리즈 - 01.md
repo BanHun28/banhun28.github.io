@@ -292,10 +292,3 @@ tokens = enc.encode("Hello, world!")  # [15496, 11, 995, 0]
 이 시리즈는 **완전한 이해**를 목표로 합니다. 어떤 부분이 이해되지 않더라도 걱정하지 마세요. 다음 편들에서 모든 퍼즐 조각이 맞춰질 것입니다.
 
 다음 편에서 만나요! 🚀
-
----
-
-**시리즈 전체 목차**: [GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈](https://github.com/BanHun28/gpt2_study)
-
-**다음 편**: [2편: 데이터가 어떻게 "단어"가 되는가? - 토큰화의 비밀](https://github.com/BanHun28/gpt2_study)
-

@@ -1,8 +1,8 @@
 ---
 title: GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈 - 02
 date: 2025-08-12 08:10:18 +0900
-categories: [machine learning, GPT]
-tags: [machine learning, GPT, Transformer]       # TAG names should always be lowercase
+categories: [TOP_CATEGORIE, SUB_CATEGORIE]
+tags: [TAG]     # TAG names should always be lowercase
 ---
 
 # GPT 완전 정복 2편: 데이터가 어떻게 "단어"가 되는가? - 토큰화의 비밀
@@ -579,10 +579,4 @@ def compare_with_without_position():
 3. **코드 실행**: `python main.py`에서 토큰화 과정 관찰
 
 다음 편에서 Attention의 신비로운 세계로 들어가봅시다! 🔍
-
----
-
-**이전 편**: [1편: GPT란 무엇인가? - 혁신의 시작점 이해하기](https://github.com/BanHun28/gpt2_study)  
-**다음 편**: [3편: Attention의 마법 - 컴퓨터가 "문맥"을 이해하는 방법](https://github.com/BanHun28/gpt2_study)  
-**시리즈 전체**: [GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈](https://github.com/BanHun28/gpt2_study)  
 

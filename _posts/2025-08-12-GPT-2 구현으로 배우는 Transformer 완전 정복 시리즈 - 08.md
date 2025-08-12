@@ -360,9 +360,5 @@ your_new_superpowers = [
 
 이 지식을 바탕으로 더 나은 AI, 더 나은 세상을 만들어 나가시기를 응원합니다!
 
----
 
-**시리즈 전체**: [GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈](https://github.com/BanHun28/gpt2_study)
-
-**레포지토리**: [BanHun28/gpt2_study](https://github.com/BanHun28/gpt2_study)
 

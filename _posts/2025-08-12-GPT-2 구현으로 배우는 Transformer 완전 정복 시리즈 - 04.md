@@ -1,8 +1,8 @@
 ---
 title: GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈 - 04
 date: 2025-08-12 08:10:22 +0900
-categories: [machine learning, GPT]
-tags: [machine learning, GPT, Transformer]       # TAG names should always be lowercase
+categories: [TOP_CATEGORIE, SUB_CATEGORIE]
+tags: [TAG]     # TAG names should always be lowercase
 ---
 
 # GPT 완전 정복 4편: Transformer Block 해부학 - 지능의 구조
@@ -802,10 +802,3 @@ Block 12: 추상적 추론
 3. **Layer Norm 위치 비교**: Pre-LN vs Post-LN 성능 차이 테스트
 
 이제 모든 구성요소를 이해했으니, 완전한 GPT 모델의 전체 그림을 그려봅시다! 🏗️
-
----
-
-**이전 편**: [3편: Attention의 마법 - 컴퓨터가 "문맥"을 이해하는 방법](https://github.com/BanHun28/gpt2_study)  
-**다음 편**: [5편: GPT 모델 전체 구조 - 퍼즐의 완성](https://github.com/BanHun28/gpt2_study)  
-**시리즈 전체**: [GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈](https://github.com/BanHun28/gpt2_study)
-
