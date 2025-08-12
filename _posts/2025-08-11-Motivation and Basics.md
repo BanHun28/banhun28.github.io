@@ -1,8 +1,8 @@
 ---
 title: Motivation and Basics
 date: 2025-08-11 12:00:28 +0900
-categories: [machine learning, math]
-tags: [machine learning, math, mle, map, kooc]     # TAG names should always be lowercase
+categories: [machine learning, statistics]
+tags: [machine learning, statistics, mle, map, maximum likelihood estimation, maximum a posteriori, bayesian inference, probability, coin flip, mathematics, fundamentals]
 ---
 
 ## 들어가며: 머신러닝이란 무엇인가?
