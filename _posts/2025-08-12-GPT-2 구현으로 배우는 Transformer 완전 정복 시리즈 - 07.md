@@ -2,7 +2,7 @@
 title: GPT-2 구현으로 배우는 Transformer 완전 정복 시리즈 - 07
 date: 2025-08-12 08:10:27 +0900
 categories: [machine learning, GPT]
-tags: [machine learning, GPT, Transformer]       # TAG names should always be lowercase
+tags: [machine learning, gpt, transformer, text generation, autoregressive, temperature, top-k sampling, beam search, nucleus sampling, pytorch, natural language generation]
 ---
 
 # GPT 완전 정복 7편: 텍스트 생성의 예술 - 창작하는 AI
