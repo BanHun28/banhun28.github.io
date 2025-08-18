@@ -3,6 +3,7 @@ title: Fundamentals of Machine Learning
 date: 2025-08-13 12:29:40 +0900
 categories: [machine learning, fundamentals]
 tags: [machine learning, fundamentals, decision trees, linear regression, rule based learning, entropy, information gain, supervised learning, statistics, mathematics, algorithms]
+math: true
 ---
 
 머신러닝의 세계로 첫 발을 내딛는 개발자라면, 복잡한 딥러닝 모델보다는 기초적인 개념부터 차근차근 이해하는 것이 중요합니다. 오늘은 KAIST의 머신러닝 기초 강의를 바탕으로 가장 클래식한 머신러닝 접근법들과 그 수학적 원리를 쉽게 설명해보겠습니다.

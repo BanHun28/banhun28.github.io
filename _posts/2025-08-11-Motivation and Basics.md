@@ -3,6 +3,7 @@ title: Motivation and Basics
 date: 2025-08-11 12:00:28 +0900
 categories: [mathematics, machine learning]
 tags: [machine learning, statistics, mle, map, maximum, likelihood, estimation, posteriori, bayesian, inference, probability, mathematics, fundamentals]
+math: true
 ---
 
 ## 들어가며: 머신러닝이란 무엇인가?
