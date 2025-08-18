@@ -43,9 +43,7 @@ tags: [machine learning, statistics, mle, map, maximum, likelihood, estimation, 
 압정 던지기는 **베르누이 시행**의 연속입니다. 앞면이 나올 확률을 θ라고 하면:
 
 **이항분포의 확률질량함수:**
-```
-P(k번 성공 | n번 시행) = C(n,k) × θ^k × (1-θ)^(n-k)
-```
+$$P(k번 성공 | n번 시행) = C(n,k) × θ^k × (1-θ)^(n-k)$$
 
 여기서 $C(n,k) = \frac{n!}{k!(n-k)!}$는 조합입니다.
 
@@ -55,9 +53,7 @@ P(k번 성공 | n번 시행) = C(n,k) × θ^k × (1-θ)^(n-k)
 - $a_T$ = 2 (뒷면 횟수)
 
 따라서 관찰된 데이터의 확률은:
-```
-P(D|θ) = $\theta^3 \times (1-\theta)^2$
-```
+$P(D|θ) = \theta^3 \times (1-\theta)^2$
 
 **이항분포의 평균과 분산 유도:**
 
@@ -87,10 +83,8 @@ $$
 
 즉, **실제로 관찰된 결과가 가장 그럴듯하게 나올 수 있는 확률값을 찾는 것**이 MLE의 핵심입니다.
 
-**1단계: 가능도 함수 설정**
-```
-L(θ) = P(D|θ) = $\theta^{a_H} \times (1-\theta)^{a_T}$
-```
+**1단계: 가능도 함수 설정**  
+$L(θ) = P(D|θ) = \theta^{a_H} \times (1-\theta)^{a_T}$
 
 **2단계: 로그 가능도 함수**
 직접 미분하기 어려우므로 로그를 취합니다:
@@ -106,45 +100,35 @@ L(θ) = P(D|θ) = $\theta^{a_H} \times (1-\theta)^{a_T}$
 2. **미분이 간단해짐**: 지수함수 미분 → 간단한 분수형태
 3. **수치적 안정성**: 매우 작은 확률값들의 곱셈으로 인한 언더플로우 방지
 
-```
-log L(θ) = $a_H \times \log \theta + a_T \times \log(1-\theta)$
-```
+$log L(θ) = a_H \times \log \theta + a_T \times \log(1-\theta)$
 
 **3단계: 미분하여 최적값 찾기**
-```
 $\frac{d(\log L)}{d\theta} = \frac{a_H}{\theta} - \frac{a_T}{1-\theta} = 0$
 
-이를 풀면:
-$a_H(1-\theta) = a_T \times \theta$
+이를 풀면:  
+$a_H(1-\theta) = a_T \times \theta$  
 $a_H - a_H \times \theta = a_T \times \theta$  
 $a_H = \theta(a_H + a_T)$
 
 ∴ $\theta = \frac{a_H}{a_H + a_T}$
-```
 
 **4단계: 최대값임을 확인**
 2차 미분을 통해 확인:
-```
 $\frac{d^2(\log L)}{d\theta^2} = -\frac{a_H}{\theta^2} - \frac{a_T}{(1-\theta)^2} < 0$
-```
 
 음수이므로 최대값입니다.
 
 **MLE 결과:**
-```
 $\hat{\theta}_{MLE} = \frac{a_H}{a_H + a_T} = \frac{3}{5} = 0.6$
-```
 
 ### 📈 MAP (Maximum A Posteriori) 접근법
 
 **베이즈의 개입**: "잠깐, 사전 지식을 고려해야 하지 않나요?"
 
 **베이즈 정리:**
-```
-P(θ|D) = P(D|θ) × P(θ) / P(D)
+$P(θ|D) = P(D|θ) × P(θ) / P(D)$
 
-Posterior = (Likelihood × Prior) / Normalizing Constant
-```
+$Posterior = (Likelihood × Prior) / Normalizing Constant$
 
 **각 용어의 의미:**
 
@@ -161,15 +145,13 @@ Posterior = (Likelihood × Prior) / Normalizing Constant
   - 분모 역할로 확률의 합이 1이 되도록 정규화하는 상수
 
 **베이즈 정리 유도 과정:**
-조건부 확률의 정의에서:
-```
-P(A|B) = P(A∩B)/P(B)
-P(B|A) = P(A∩B)/P(A)
+조건부 확률의 정의에서:  
+$P(A|B) = P(A∩B)/P(B)$  
+$P(B|A) = P(A∩B)/P(A)$
 
-따라서: P(A∩B) = P(A|B)×P(B) = P(B|A)×P(A)
+따라서: $P(A∩B) = P(A|B)×P(B) = P(B|A)×P(A)$
 
-정리하면: P(B|A) = P(A|B)×P(B)/P(A)
-```
+정리하면: $P(B|A) = P(A|B)×P(B)/P(A)$
 
 ## 베타분포(Beta Distribution): 완벽한 사전분포
 
@@ -178,55 +160,49 @@ P(B|A) = P(A∩B)/P(A)
 2. 이항분포와 **켤레사전분포** 관계
 
 **베타분포의 확률밀도함수:**
-```
-f(θ; α, β) = θ^(α-1) × (1-θ)^(β-1) / B(α,β)
-```
+$$
+f(θ; α, β) = θ^{(α-1)} × (1-θ)^{(β-1)} / B(α,β)
+$$
 
-여기서 베타함수: `$B(\alpha,\beta) = \frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha+\beta)}$`
-감마함수: `$\Gamma(\alpha) = (\alpha-1)!$` (α가 자연수일 때)
+여기서 베타함수: $B(\alpha,\beta) = \frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha+\beta)}$  
+감마함수: $\Gamma(\alpha) = (\alpha-1)!$ (α가 자연수일 때), 일반적으로 $\Gamma(\alpha) = \int_0^\infty t^{\alpha-1}e^{-t}dt$
 
-**베타분포의 평균 유도:**
-```
-E[θ] = ∫₀¹ θ × f(θ; α, β) dθ
-     = ∫₀¹ θ^α × (1-θ)^(β-1) / B(α,β) dθ
-     = B(α+1,β) / B(α,β)
-     = α/(α+β)
-```
+**베타분포의 평균 유도:**  
+$$
+\begin{align}
+E[\theta] &= \int_0^1 \theta \times f(\theta; \alpha, \beta) \, d\theta \\
+          &= \int_0^1 \frac{\theta^{\alpha} \times (1-\theta)^{\beta-1}}{B(\alpha,\beta)} \, d\theta \\  
+          &= \frac{B(\alpha+1,\beta)}{B(\alpha,\beta)} \\
+          &= \frac{\alpha}{\alpha+\beta}
+\end{align}
+$$
 
 **켤레사전분포의 성질:**
-베타분포 Beta(α,β)를 사전분포로 사용하면:
-```
-P(θ|D) ∝ P(D|θ) × P(θ)
+베타분포 Beta(α,β)를 사전분포로 사용하면:  
+$P(θ|D) ∝ P(D|θ) × P(θ)$   
        ∝ $\theta^{a_H} \times (1-\theta)^{a_T} \times \theta^{(\alpha-1)} \times (1-\theta)^{(\beta-1)}$
        ∝ $\theta^{(a_H+\alpha-1)} \times (1-\theta)^{(a_T+\beta-1)}$
-```
 
 이는 **Beta($a_H+\alpha$, $a_T+\beta$) 분포**입니다!
 
 **MAP 추정량 유도:**
 사후분포의 최빈값(mode)을 구합니다:
-```
-$f(\theta) \propto \theta^{(a_H+\alpha-1)} \times (1-\theta)^{(a_T+\beta-1)}$
 
-$\log f(\theta) = (a_H+\alpha-1)\log \theta + (a_T+\beta-1)\log(1-\theta) + $ 상수
+$$f(\theta) \propto \theta^{(a_H+\alpha-1)} \times (1-\theta)^{(a_T+\beta-1)}$$
 
-$\frac{d(\log f)}{d\theta} = \frac{a_H+\alpha-1}{\theta} - \frac{a_T+\beta-1}{1-\theta} = 0$
+$$\log f(\theta) = (a_H+\alpha-1)\log \theta + (a_T+\beta-1)\log(1-\theta) + \text{상수}$$
+
+$$\frac{d(\log f)}{d\theta} = \frac{a_H+\alpha-1}{\theta} - \frac{a_T+\beta-1}{1-\theta} = 0$$
 
 풀면: $\theta = \frac{a_H+\alpha-1}{a_H+a_T+\alpha+\beta-2}$
-```
 
 **MAP 결과:**
-```
-$\hat{\theta}_{MAP} = \frac{a_H+\alpha-1}{a_H+a_T+\alpha+\beta-2}$
-```
+$$\hat{\theta}_{MAP} = \frac{a_H+\alpha-1}{a_H+a_T+\alpha+\beta-2}$$
 
 ### 🤔 MLE vs MAP: 어떤 차이가 있을까?
 
 **수학적 관계:**
-```
-$\hat{\theta}_{MAP} = \frac{a_H+\alpha-1}{n+\alpha+\beta-2}$
-       $= \frac{a_H/n + (\alpha-1)/n}{1 + (\alpha+\beta-2)/n}$
-```
+$$\hat{\theta}_{MAP} = \frac{a_H+\alpha-1}{n+\alpha+\beta-2} = \frac{a_H/n + (\alpha-1)/n}{1 + (\alpha+\beta-2)/n}$$
 
 **극한에서의 수렴:**
 $n \to \infty$일 때: $\hat{\theta}_{MAP} \to a_H/n = \hat{\theta}_{MLE}$
@@ -240,9 +216,7 @@ $n \to \infty$일 때: $\hat{\theta}_{MAP} \to a_H/n = \hat{\theta}_{MLE}$
 
 **Hoeffding 부등식:**
 독립적인 베르누이 시행에서:
-```
-P(|θ̂ - θ*| ≥ ε) ≤ 2e^(-2Nε²)
-```
+$$P(|\hat{\theta} - \theta^*| \geq \varepsilon) \leq 2e^{-2N\varepsilon^2}$$
 
 **공식의 각 요소 설명:**
 
@@ -272,11 +246,15 @@ P(|θ̂ - θ*| ≥ ε) ≤ 2e^(-2Nε²)
 
 **필요한 시행 횟수 계산:**
 오차 ε = 0.1, 신뢰도 99.99% (δ = 0.0001)를 원한다면:
-```
-2e^(-2N×0.01) ≤ 0.0001
-e^(-0.02N) ≤ 0.00005
-N ≥ -log(0.00005)/0.02 ≈ 499,424
-```
+
+단계별 계산:
+1. Hoeffding 부등식: $P(|\hat{\theta} - \theta^*| \geq \varepsilon) \leq 2e^{-2N\varepsilon^2}$
+2. 원하는 조건: $2e^{-2N\varepsilon^2} \leq \delta = 0.0001$
+3. ε = 0.1이므로 $\varepsilon^2 = 0.01$
+
+$$2e^{-2N \times 0.01} \leq 0.0001$$
+$$e^{-0.02N} \leq 0.00005$$
+$$N \geq -\log(0.00005)/0.02 \approx 499,424$$
 
 약 50만 번의 시행이 필요합니다!
 
@@ -294,64 +272,50 @@ N ≥ -log(0.00005)/0.02 ≈ 499,424
 
 **기본 성질 유도:**
 
-**성질 1**: P(∅) = 0
-```
-증명: Ω = Ω ∪ ∅이고 Ω ∩ ∅ = ∅이므로
-P(Ω) = P(Ω) + P(∅) = 1
-따라서 P(∅) = 0
-```
+**성질 1**: $P(\emptyset) = 0$
 
-**성질 2**: P(E^c) = 1 - P(E)
-```
-증명: Ω = E ∪ E^c이고 E ∩ E^c = ∅이므로
-1 = P(E) + P(E^c)
-따라서 P(E^c) = 1 - P(E)
-```
+증명: $\Omega = \Omega \cup \emptyset$이고 $\Omega \cap \emptyset = \emptyset$이므로
+$$P(\Omega) = P(\Omega) + P(\emptyset) = 1$$
+따라서 $P(\emptyset) = 0$
+
+**성질 2**: $P(E^c) = 1 - P(E)$
+
+증명: $\Omega = E \cup E^c$이고 $E \cap E^c = \emptyset$이므로
+$$1 = P(E) + P(E^c)$$
+따라서 $P(E^c) = 1 - P(E)$
 
 ### 조건부 확률
-```
-P(A|B) = P(A∩B)/P(B), P(B) > 0
-```
+$$P(A|B) = \frac{P(A \cap B)}{P(B)}, \quad P(B) > 0$$
 
 **전확률 공식:**
-```
-P(A) = Σ P(A|Bi) × P(Bi)
-```
+$$P(A) = \sum_i P(A|B_i) \times P(B_i)$$
 
 ### 주요 확률 분포
 
 #### 1. 정규분포 (Normal Distribution)
-```
-f(x; μ, σ) = (1/σ√2π) × exp(-(x-μ)²/2σ²)
-표기: N(μ, σ²)
-평균: μ, 분산: σ²
-```
+$$f(x; \mu, \sigma) = \frac{1}{\sigma\sqrt{2\pi}} \times \exp\left(-\frac{(x-\mu)^2}{2\sigma^2}\right)$$
+표기: $N(\mu, \sigma^2)$
+평균: $\mu$, 분산: $\sigma^2$
 - 가장 일반적인 연속 분포
 - 중심극한정리에 의해 자연 현상에서 자주 관찰
 
 #### 2. 베타분포 (Beta Distribution)
-```
-f(θ; α, β) = θ^(α-1) × (1-θ)^(β-1) / B(α,β)
-표기: Beta(α, β)
-평균: α/(α+β), 분산: αβ/((α+β)²(α+β+1))
-```
+$$f(\theta; \alpha, \beta) = \frac{\theta^{(\alpha-1)} \times (1-\theta)^{(\beta-1)}}{B(\alpha,\beta)}$$
+표기: $\text{Beta}(\alpha, \beta)$
+평균: $\frac{\alpha}{\alpha+\beta}$, 분산: $\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}$
 - [0,1] 구간에서 정의
 - 확률의 확률을 모델링할 때 유용
 
 #### 3. 이항분포 (Binomial Distribution)
-```
-f(k; n, p) = C(n,k) × p^k × (1-p)^(n-k)
-표기: B(n, p)
-평균: np, 분산: np(1-p)
-```
+$$f(k; n, p) = C(n,k) \times p^k \times (1-p)^{(n-k)}$$
+표기: $B(n, p)$
+평균: $np$, 분산: $np(1-p)$
 - 성공/실패가 명확한 독립 시행
 - 압정 던지기 같은 베르누이 시행
 
 #### 4. 다항분포 (Multinomial Distribution)
-```
-f(x₁,...,xₖ; n, p₁,...,pₖ) = n!/(x₁!...xₖ!) × p₁^x₁ × ... × pₖ^xₖ
-평균: E[Xi] = npi, 분산: Var(Xi) = npi(1-pi)
-```
+$$f(x_1,\ldots,x_k; n, p_1,\ldots,p_k) = \frac{n!}{x_1!\cdots x_k!} \times p_1^{x_1} \times \cdots \times p_k^{x_k}$$
+평균: $E[X_i] = np_i$, 분산: $\text{Var}(X_i) = np_i(1-p_i)$
 - 이항분포의 일반화
 - 여러 선택지가 있는 경우 (A, B, C, D 중 선택)
 
